@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;   
+    user-select: none; 
+}
+body{
+    width: 100%;
+    height: 100%;
+
+}
+#look,#home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -200px;
+    height: 700px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+#look{
+    z-index: 1;
+}
+#home{
+    z-index: 0;
+}
+#name{
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    width: 90%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    font-family: "MV Boli";
+    color: rgb(136, 134, 131);
+    font-weight: bold;
+}
+#img{
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    width: 80%;
+    height: 320px;
+    background-image: url(../img/game.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.gameBegin{
+    position: absolute;
+    left: 25%;
+    top: 460px;
+    width: 50%;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 15px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+}
+.madnesgame{
+    position: absolute;
+    position: absolute;
+    left: 25%;
+    top: 520px;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(241, 19, 19);
+    border-radius: 15px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+
+}
+#explain{
+    position: absolute;
+    top: 580px;
+    left: 25%;
+    height: 60px;
+    width: 50%;
+}
+#back{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    height: 40px;
+    width: 20%;
+}
+#score{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    height: 70px;
+    width: 40%;
+    background-color: rgb(208, 247, 234);
+    border-radius: 15px;
+
+}
+#left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    line-height: 70px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Comic Sans MS";
+}
+#right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    line-height: 70px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+#main{
+    position: absolute;
+    top: 130px;
+    left: 5%;
+    height: 440px;
+    width: 90%;
+    background-color: rgb(177, 233, 233);
+    overflow: hidden;
+
+}
+#con{
+    position: absolute;
+    width: 100%;
+    height: 440px;
+    top: -110px;
+    border-collapse: collapse;
+}
+
+
+
+.row{
+    position: relative;
+    left: 4.4%;
+    height: 110px;
+    width: 100%;
+    
+}
+.cell{
+    height: 110px;
+    width: 25%;
+    float: left;
+    border-radius: 5px;
+}
+.mcell{
+    height: 110px;
+    width: 20%;
+    float: left;
+    border-radius: 5px;
+}
+.black{
+    background-color: #383636;
+}
+.madnes{
+    background-color: rgb(235, 93, 93);
+}
